@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+body {
+   background-image: linear-gradient(150deg, #ffcc80 70%, #880e4f 70.1%);
+    color: #fff;
+}
+
+.wrapper {
+    background-image: linear-gradient(150deg, #ffcc80 70%, #880e4f 70.1%);
+    height: 100vh;
+}
+
+.heading {
+    text-align: center;
+    display: block;
+    padding: 3rem;
+    font-size: 68px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    
+      background: -webkit-linear-gradient(to right, #880e4f, #ff4081, #f8bbd0);
+    background: linear-gradient(to right, #880e4f, #ff4081, #f8bbd0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+}
+
+.container {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+label {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-family: inherit;
+    color: #880e4f;
+}
+
+#item {
+    height: 2.2rem;
+    width: 20rem;
+    color: #777;
+    font-size: 1.2rem;
+   
+}
+input {
+     border: 2px solid #c4c4c4;
+    border-radius: 3px;
+}
+
+#btn {
+    padding: 1rem 1.3rem;
+    margin-left: .4rem;
+    background-image: linear-gradient(#66ffa6, #00c853);
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
+
+#btn:hover {
+    background-image: linear-gradient(#00c853, #66ffa6);
+    transition: all .3s;
+}
+
+li {
+    margin-bottom: .5rem;
+    margin-left: 45vw;
+    list-style-type: decimal; 
+    color: #333;
+    font-size: 1.3rem;
+    text-transform: lowercase;
+}
+
+li button {
+    margin-left: 5rem;
+    border: none;
+    padding: 2px;
+    background-color: #EA2027;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+li button:hover {
+    color: #000;
+}
+
+
+
+
+
